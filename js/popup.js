@@ -14,6 +14,4 @@ function getResults(){
 function showResults(results) {
     var resultsElement = document.getElementById("results");
     resultsElement.innerText = results ? "This page uses jQuery" : "This page does NOT use jQuery";
-    alert(results.results);
-    //resultsElement.innerText = (results ? "This page uses jQuery" : "This page does NOT use jQuery") + "Index are "+ results.toString();
 }
